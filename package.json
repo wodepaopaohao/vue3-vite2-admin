@@ -6,7 +6,7 @@
     "dev": "vite --open",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint",
+    "lint": "eslint src/**",
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
@@ -33,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
     "@vitejs/plugin-vue": "^2.2.0",
-    "eslint": "^8.11.0",
+    "eslint": "^7.32.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
